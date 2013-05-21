@@ -1,0 +1,12 @@
+diff -abur jboss-eap-6.1-src/pom.xml jboss-eap-6.1-src-new/pom.xml
+--- jboss-eap-6.1-src/pom.xml	2013-05-09 13:06:56.000000000 +0200
++++ jboss-eap-6.1-src-new/pom.xml	2013-05-21 23:40:25.278151862 +0200
+@@ -60,7 +60,7 @@
+         <jboss.as.scm.connection>git@github.com:jbossas/jboss-as.git</jboss.as.scm.connection>
+ 
+         <!-- Non-default plugin versions and configuration -->
+-        <version.enforcer.plugin>1.2-redhat-1</version.enforcer.plugin>
++        <version.enforcer.plugin>1.2</version.enforcer.plugin>
+         <version.jacoco.plugin>0.5.6.201201232323</version.jacoco.plugin> <!-- Needs to be set explicitely to match with org.jacoco:org.jacoco.ant - see testsuite. -->
+ 
+         <!-- Surefire args -->
